@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoFLOW | The Smart Car Wash Management System</title>
+    <meta name="description" content="Streamline your car wash operations with AutoFLOW. The most advanced POS system designed specifically for South African car wash businesses.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preload images for better performance -->
+    <link rel="preload" href="/public/images/logo.png" as="image">
+    <link rel="preload" href="/public/images/dashboard-preview.jpg" as="image">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="/" class="logo">
+                <!-- Replace this div with your logo image when ready -->
+                <div class="logo-icon">
+                    <img src="/public/images/logo.png" alt="AutoFLOW Logo" style="width: 100%; height: 100%; object-fit: contain; display: none;">
+                    <span>A</span>
+                </div>
+                <div>
+                    <div class="logo-text">AutoFLOW</div>
+                    <div class="logo-tagline">THE SMART CAR WASH MANAGEMENT SYSTEM</div>
+                </div>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions" id="navActions">
+                <a href="#" class="btn btn-secondary">Sign In</a>
+                <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+            </div>
+            
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-star"></i> Trusted by 250+ Car Washes
+                </span>
+                
+                <h1 class="hero-title">
+                    Transform Your Car Wash with Intelligent Management
+                </h1>
+                
+                <p class="hero-subtitle">
+                    AutoFLOW is South Africa's most advanced car wash POS system. Streamline operations, increase revenue, and delight customers with our all-in-one platform.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <i class="fas fa-play-circle"></i> Start 14-Day Free Trial
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg">
+                        <i class="fas fa-calendar-alt"></i> Book a Demo
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Faster Check-in</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">R150k+</div>
+                        <div class="stat-label">Monthly Revenue Tracked</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Local Support</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-title">Today's Overview</div>
+                        <div class="dashboard-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="metric-card">
+                            <div class="metric-label">Vehicles Today</div>
+                            <div class="metric-value">52</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Revenue</div>
+                            <div class="metric-value">R9,240</div>
+                        </div>
+                        <div class="chart-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">POWERFUL FEATURES</span>
+                <h2 class="section-title">Everything You Need to Run a Successful Car Wash</h2>
+                <p class="section-subtitle">Designed specifically for South African car wash businesses with local support and customization.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Smart License Scanning</h3>
+                    <p>Scan license plates or discs instantly with your phone's camera. Eliminate manual entry errors and speed up check-in by 90%.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-receipt"></i>
+                    </div>
+                    <h3>Digital Job Cards</h3>
+                    <p>Create professional digital job cards with automatic customer details. Track each vehicle's progress from start to finish.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Payment Processing</h3>
+                    <p>Accept cash, card, EFT, and mobile payments. Automatically track every transaction and generate detailed reports.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Staff Management</h3>
+                    <p>Track employee performance, assign tasks, and manage schedules. Know who did what and when with full accountability.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Get instant insights into your business performance. Track revenue, vehicle counts, and popular services in real-time.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile First</h3>
+                    <p>Built for mobile devices. Works perfectly on phones and tablets, with or without internet connection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="section showcase" id="how-it-works">
+        <div class="container showcase-container">
+            <div class="app-preview">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="screen-content">
+                                <div class="screen-icon">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <h3>Scan License Plate</h3>
+                                <p>Point camera at license disc to auto-fill vehicle details in seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="showcase-content">
+                <h2>Transform Your Operations in Minutes</h2>
+                <p>Forget about paper job books and messy spreadsheets. AutoFLOW brings your entire car wash operation into the digital age.</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Scan license plates</strong> with your phone's camera</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Create digital job cards</strong> in seconds</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Track every payment</strong> with automatic receipts</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>Manage your team</strong> with staff performance reports</span>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    <i class="fas fa-rocket"></i> Get Started Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">TESTIMONIALS</span>
+                <h2 class="section-title">Trusted by Car Wash Owners Across South Africa</h2>
+                <p class="section-subtitle">See what business owners are saying about AutoFLOW</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "We used to lose track of payments daily. Since using AutoFLOW, our revenue is up 35% in the first month. The license scanning feature alone saves us hours every day."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sipho M.</h4>
+                            <div class="author-role">Owner, Johannesburg Car Wash</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "The WhatsApp receipt feature has been a game-changer. Our customers love the professional receipts, and we've seen a 40% increase in repeat business."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TN</div>
+                        <div class="author-info">
+                            <h4>Thandi N.</h4>
+                            <div class="author-role">Manager, Cape Town Auto Spa</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a multi-location operation, AutoFLOW gives me real-time visibility into all my sites. The staff accountability features have reduced disputes by 90%."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DK</div>
+                        <div class="author-info">
+                            <h4>David K.</h4>
+                            <div class="author-role">Owner, 3 Car Wash Locations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section contact-form-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">GET STARTED TODAY</span>
+                <h2 class="section-title">Request More Information or Schedule a Demo</h2>
+                <p class="section-subtitle">Fill out the form below and we'll contact you within 24 hours to discuss how AutoFLOW can transform your car wash business.</p>
+            </div>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="fullName" class="form-label">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phoneNumber" class="form-label">Phone Number *</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Enter your phone number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="emailAddress" class="form-label">Email Address *</label>
+                        <input type="email" id="emailAddress" name="emailAddress" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="businessName" class="form-label">Business Name</label>
+                        <input type="text" id="businessName" name="businessName" class="form-control" placeholder="Enter your car wash business name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="3" placeholder="Tell us about your car wash and what you're looking for..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Submit Request
+                    </button>
+                </form>
+            </div>
+            
+            <div class="contact-direct">
+                <h3>Or contact us directly:</h3>
+                <div class="contact-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <div class="contact-label">Call us directly:</div>
+                        <a href="tel:+27699915650" class="contact-number">+27 69 991 5650</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta" id="cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to Transform Your Car Wash?</h2>
+            <p class="cta-subtitle">Join 250+ car wash owners who are saving time, increasing revenue, and running more professional operations with AutoFLOW.</p>
+            
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-white btn-lg">
+                    <i class="fas fa-play-circle"></i> Start 14-Day Free Trial
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg cta-btn-secondary">
+                    <i class="fas fa-calendar-alt"></i> Schedule a Demo
+                </a>
+            </div>
+            
+            <p class="cta-features">
+                <i class="fas fa-check"></i> No credit card required
+                <span>•</span>
+                <i class="fas fa-check"></i> Cancel anytime
+                <span>•</span>
+                <i class="fas fa-check"></i> Local South African support
+                <span>•</span>
+                <i class="fas fa-phone"></i> Call: +27 69 991 5650
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="/" class="logo">
+                        <div class="logo-icon">A</div>
+                        AutoFLOW
+                    </a>
+                    <p class="footer-tagline">
+                        South Africa's leading car wash management system. Helping businesses streamline operations and increase profits.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+27699915650">+27 69 991 5650</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@autoflow.co.za</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-heading">Product</h4>
+                    <div class="footer-links">
+                        <a href="#features" class="footer-link">Features</a>
+                        <a href="#how-it-works" class="footer-link">How It Works</a>
+                        <a href="#testimonials" class="footer-link">Testimonials</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-heading">Company</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">About Us</a>
+                        <a href="#" class="footer-link">Blog</a>
+                        <a href="#" class="footer-link">Careers</a>
+                        <a href="#" class="footer-link">Partners</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-heading">Legal</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                        <a href="#" class="footer-link">Cookie Policy</a>
+                        <a href="#" class="footer-link">GDPR</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2024 AutoFLOW. All rights reserved.
+                </div>
+                <div class="made-with">
+                    Made with <i class="fas fa-heart"></i> in South Africa
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

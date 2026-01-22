@@ -1,0 +1,29 @@
+{
+  "name": "autoflow-website",
+  "version": "1.0.0",
+  "description": "AutoFLOW - The Smart Car Wash Management System",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "car-wash",
+    "pos-system",
+    "south-africa",
+    "business-management",
+    "saas"
+  ],
+  "author": "AutoFLOW Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
